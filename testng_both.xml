@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/halde/IdeaProjects/APIAutomation/src/test/java/TheTestingAcademy/Oct15">
+        <classes>
+
+            <class name="TheTestingAcademy.Oct15.TestNGexamples.TestNGlighterVersion">
+                <methods>
+                    <include name="demo5"/>
+                    <include name="demo6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

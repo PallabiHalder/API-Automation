@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/halde/IdeaProjects/APIAutomation/src/test/java/TheTestingAcademy/Oct15/TestNGexamples">
+        <classes>
+            <class name="TheTestingAcademy.Oct15.TestNGexamples.TNGgrouping">
+
+            </class>
+
+        </classes>
+
+        <groups>
+        <run>
+            
+
+            <include name="logIn"></include>
+            <include name="qa"></include>
+            <exclude name="dashboard"></exclude>
+
+            
+        </run>
+        </groups>
+    </test>
+</suite>
